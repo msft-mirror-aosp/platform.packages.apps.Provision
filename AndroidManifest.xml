@@ -33,6 +33,7 @@
     <application>
         <activity android:name="DefaultActivity"
              android:excludeFromRecents="true"
+             android:directBootAware="true"
              android:exported="true">
             <intent-filter android:priority="1">
                 <action android:name="android.intent.action.MAIN"/>
