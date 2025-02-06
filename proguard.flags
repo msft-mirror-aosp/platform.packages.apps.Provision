@@ -1,1 +1,4 @@
--keep class * extends android.app.Activity
+# TODO(b/373579455): Evaluate if <init> needs to be kept.
+-keep class * extends android.app.Activity {
+    void <init>();
+}
